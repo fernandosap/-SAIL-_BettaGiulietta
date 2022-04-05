@@ -1,0 +1,16 @@
+h2{
+    color: blue;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:rgba(72, 72, 72, 0.3);
+    height: 2px;
+  }

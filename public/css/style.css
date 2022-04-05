@@ -1655,7 +1655,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .slider_cont_section h4 {
-    color: #f36b2a;
+    color: #e03d3c;
     text-transform: uppercase;
     font-size: 48px;
     font-weight: 700;
@@ -1685,7 +1685,7 @@ input[type="radio"] .styled:checked+label::after {
 .button_section a {
     width: 190px;
     height: 50px;
-    background: #f36b2a;
+    background: #e03d3c;
     float: left;
     margin-right: 15px;
     line-height: 50px;
@@ -1882,7 +1882,7 @@ input[type="radio"] .styled:checked+label::after {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #f36b2a;
+    background: #e03d3c;
 }
 
 a[data-toggle="collapse"] {
@@ -1967,7 +1967,7 @@ p.large {
 }
 
 .dark_bg_orange {
-	background: #f36b2a;
+	background: #e03d3c;
 }
 
 .cross_layout {
@@ -2023,7 +2023,7 @@ h2.heading_main {
     line-height: 90px;
     min-width: 445px;
     float: left;
-    background: #f36b2a;
+    background: #e03d3c;
     margin-bottom: 75px;
 }
 
@@ -2079,7 +2079,7 @@ h2.heading_main {
 }
 
 .ornage_color {
-	color: #f36b2a !important;
+	color: #e03d3c !important;
 }
 
 p strong {
@@ -2124,7 +2124,7 @@ p strong {
 button.submit_bt {
     width: 165px;
     height: 51px;
-    background: #f36b2a;
+    background: #e03d3c;
     color: #fff;
     font-size: 15px;
     font-weight: 300;
@@ -2145,7 +2145,7 @@ button.submit_bt:focus {
 footer {
     background: #161c34;
     border-top: solid rgba(255,255,255,.2) 1px;
-    padding: 75px 0;
+    padding: 10px 0 70px 0;
 }
 
 footer h3 {
@@ -2153,7 +2153,7 @@ footer h3 {
     font-size: 35px;
     font-weight: 600;
     padding: 0;
-    border-bottom: solid #f36b2a 1px;
+    border-bottom: solid #e03d3c 1px;
     float: left;
 }
 
@@ -2179,10 +2179,10 @@ ul.social_links li {
 }
 
 ul.social_links li a {
-    color: #f36b2a;
+    color: #e03d3c;
     width: 40px;
     height: 40px;
-    border: solid #f36b2a 1px;
+    border: solid #e03d3c 1px;
     float: left;
     text-align: center;
     line-height: 40px;
@@ -2192,7 +2192,7 @@ ul.social_links li a {
 
 ul.social_links li a:hover,
 ul.social_links li a:focus {
-	background: #f36b2a;
+	background: #e03d3c;
 	color: #fff;
 }
 
@@ -2226,7 +2226,7 @@ ul.social_links li a:focus {
 .f_menu ul li::after {
     width: 10px;
     height: 10px;
-    background: #f36b2a;
+    background: #e03d3c;
     content: "";
     position: absolute;
     left: 0;
@@ -2268,7 +2268,7 @@ ul.social_links li a:focus {
 }
 
 .cpy_right p a:hover,.cpy_right p a:focus {
-	color: #f36b2a;
+	color: #e03d3c;
 	text-decoration: underline;
 }
 

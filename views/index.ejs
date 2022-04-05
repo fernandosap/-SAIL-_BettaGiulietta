@@ -39,74 +39,8 @@
    
    <div class="wrapper">
 
-      <div class="sidebar">
-         <!-- Sidebar  -->
-        <nav id="sidebar">
-
-            <div id="dismiss">
-                <i class="fa fa-arrow-left"></i>
-            </div>
-
-            <ul class="list-unstyled components">
-                
-                <li class="active">
-                    <a href="/">HOME</a>
-                </li>
-                <li>
-                    <a href="/about">ABOUT US</a>
-                </li>
-                <li>
-                    <a href="/contact">CONTACT US</a>
-                </li>
-                <li>
-                    <a href="/srp">SOCIAL RESPONSABILITY</a>
-                </li>
-                <li>
-                    <a href="/more">MORE ...</a>
-                </li>
-            </ul>
-
-        </nav>
-      </div>
-
-
-      <div id="content">
-
-
-      <!-- section -->
-      <section id="home" class="top_section">
-         <div class="row">
-            <div class="col-lg-12">
-               <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-3 logo_section">
-                  <div class="full">
-                     <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#" height="250px" width="280px"></a> </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-9">
-                  <div class="right_header_info">
-                     <ul>
-                        <li><img style="margin-right: 15px;" src="images/phone_icon.png" alt="#" /><a href="#">987-654-3210</a></li>
-                        <li><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#" /><a href="#">demo@gmail.com</a></li>
-                        <li><img src="images/search_icon.png" alt="#" /></li>
-                         <li>
-                           <button type="button" id="sidebarCollapse">
-                              <img src="images/menu_icon.png" alt="#" />
-                           </button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- end header inner -->
-      </header>
+      <%- include('header'); %>
+      <br>
       <section>
          <div class="container-fluid">
             <div class="row">
@@ -114,11 +48,8 @@
                   <div class="full slider_cont_section">
                      <h4>Welcome</h4>
                      <h3>BETA GIULETTA</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                     <div class="button_section">
-                        <a href="#">Book Now</a>
-                        <a href="about.html">About Us</a>
-                     </div>
+                     <p>We are accelerating the world's transition to sustainable energy, with electric and efficient combustion cars that not only are fast, but also look amazing</p>
+
                   </div>
                </div>
                <div class="col-md-5">
@@ -160,10 +91,10 @@
                  <div class="col-lg-4 margin_top_30">
                <div class="full margin_top_30">
                   <h3 class="main_heading _left_side margin_top_30">About Us</h3>
-                  <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod..</p>
+                  <p class="large">Beta Giulietta is German multinational automotive manufacturing corporation headquartered in Frankfurt, Germany, and since the late 2000s is a publicly-traded company.</p>
                </div>
                <div class="full button_section margin_top_30">
-                        <a href="#">Read More</a>
+                        <a href="/about">Read More</a>
                      </div>
             </div>
 
@@ -194,10 +125,10 @@
                  <div class="col-lg-4 margin_top_30">
                <div class="full margin_top_30">
                   <h3 class="main_heading _left_side margin_top_30">Our Cars</h3>
-                  <p class="large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod..</p>
+                  <p class="large">Beta Giulietta brand aims to move you, and as such the “WE TAKE YOU AS FAST AS LIGHTNING” strategy centers on a global model initiative through which the brand aims to lead innovation, technology and quality in the volume segment.</p>
                </div>
                <div class="full button_section margin_top_30">
-                    <a href="#">See More</a>
+                    <a href="/about">See More</a>
                   </div>
             </div>
 
@@ -223,7 +154,7 @@
                     <div class="choose_blog text_align_center">
                         <img src="images/c1_icon.png" />
                         <h4>FINANCING MADE EASY</h4>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                        <p>We offer many ways of financing your car. What is important for us is that you enjoy the pleasure of driving a Giuletta, money comes second.</p>
                     </div>
                  </div>
               </div>
@@ -231,8 +162,8 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                         <img src="images/c2_icon.png" />
-                        <h4>WIDE RANGE OF BRANDS</h4>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                        <h4>WIDE RANGE OF OPTIONS</h4>
+                        <p>No matter if you prefer combustion, electric or hybrid we have you covered. Our wide range of options will help you to make the right decision that fits your likes but also your budget.</p>
                     </div>
                  </div>
               </div>
@@ -240,14 +171,14 @@
                  <div class="full">
                     <div class="choose_blog text_align_center">
                         <img src="images/c3_icon.png" />
-                        <h4>TRUSTED BY THOUSANDS</h4>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                        <h4>CARING ABOUT THE WORLD</h4>
+                        <p>Sustainability comes as top of mind, and is embedded in our vision, mission and core values. We cannot think about our future without thinking on the environment and our sustainable operations.</p>
                     </div>
                  </div>
               </div>
               <div class="col-md-12 margin_top_30">
                 <div class="full center button_section margin_top_30">
-                    <a class="margin_top_30" href="#">Read More</a>
+                    <a class="margin_top_30" href="/about">Read More</a>
                   </div>
               </div>
            </div>
@@ -285,48 +216,13 @@
                                 </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
-                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</i></p>
+                                <p><strong>Jason Winchester</strong><br>
+                                 <br><i>With the different financial options that Beta Giuletta provided I was able to find and acquire the car of my dreams. Now I can look cool in the streets, driving top-speed, without risking my budget!</i></p>
                                 <div class="full text_align_center margin_top_30">
                                    <img src="images/testimonial_qoute.png">
                                 </div>
                               </div>
                             </div> 
-                        </div>
-
-                        <div class="carousel-item">
-
-                           <div class="testomonial_section">
-                              <div class="full center">
-                                <div class="client_img">
-                                  <img src="images/testimonial.png" alt="#" />
-                                </div>
-                              </div>
-                              <div class="full testimonial_cont text_align_center">
-                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</i></p>
-                                <div class="full text_align_center margin_top_30">
-                                   <img src="images/testimonial_qoute.png">
-                                </div>
-                              </div>
-                            </div>  
-
-                        </div>
-
-                        <div class="carousel-item">
-
-                           <div class="testomonial_section">
-                              <div class="full center">
-                                <div class="client_img">
-                                  <img src="images/testimonial.png" alt="#" />
-                                </div>
-                              </div>
-                              <div class="full testimonial_cont text_align_center">
-                                <p><strong>Due markes</strong><br><strong class="ornage_color">Rental</strong><br><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</i></p>
-                                <div class="full text_align_center margin_top_30">
-                                   <img src="images/testimonial_qoute.png">
-                                </div>
-                              </div>
-                            </div>  
-
                         </div>
 
                      </div>
@@ -377,7 +273,7 @@
                           </div>
                           <div class="col-md-12">
                             <div class="full center">
-                              <button class="submit_bt">Send</button>
+                              <button class="submit_bt" onclick="alert('Thanks for reaching out. We do value your feedback. We will make sure to contact you ASAP.')">Send</button>
                             </div>
                           </div>
                           </fieldset>
@@ -396,80 +292,7 @@
       </section>
       <!-- end section -->
 
-      <!-- footer -->
-      <footer>
-         <div class="container">
-           <div class="row">
-              <div class="col-md-6">
-                <div class="full">
-                  <h3>Beta Giulietta</h3>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="full">
-                   <ul class="social_links">
-                      <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                   </ul>
-                </div>
-              </div>
-              <div class="col-md-4">
-                 <div class="full">
-                    <h4 class="widget_heading">SUBSCRIBE</h4>
-                 </div>
-                 <div class="full subribe_form">
-                    <form>
-                      <fieldset>
-                         <div class="field">
-                           <input type="email" name="mail" placeholder="Enter your email" />
-                         </div>
-                         <div class="field">
-                           <button class="submit_bt">Sumbit</button>
-                         </div>
-                      </fieldset>
-                    </form>
-                 </div>
-              </div>
-              <div class="col-md-4">
-                 <div class="full">
-                   <h4 class="widget_heading">Usefull Links</h4>
-                 </div>
-                 <div class="full f_menu">
-                    <ul>
-                       <li><a href="#">Home</a></li>
-                       <li><a href="#">About</a></li>
-                       <li><a href="#">Our Cars</a></li>
-                       <li><a href="#">Services</a></li>
-                       <li><a href="#">Testimonial</a></li>
-                    </ul>
-                 </div>
-              </div>
-              <div class="col-md-4">
-                 <div class="full">
-                   <h4 class="widget_heading">Contact Details</h4>
-                   <div class="full cont_footer">
-                     <p><strong>Beta Giulietta Car : Adderess</strong><br><br>Newyork 10012, USA<br>Phone: +987 654 3210<br>demo@gmail.com</p>
-                   </div>
-                 </div>
-              </div>
-           </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-
-      <!-- copyright -->
-
-      <div class="cpy_right">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12">
-                  </div>
-              </div>
-          </div>
-      </div>
-
-      <!-- right copyright -->
+      <%- include('footer'); %>
 
    </div>
 </div>
@@ -509,12 +332,12 @@
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 11,
-          center: {lat: 40.645037, lng: -73.880224},
+          center: {lat: 50.1110008, lng: 8.5493529},
           });
 
         var image = 'images/location_point.png';
           var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
+             position: {lat: 50.1110008, lng: 8.5493529},
              map: map,
              icon: image
           });
